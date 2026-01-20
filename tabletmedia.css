@@ -1,10 +1,11 @@
 @media screen and (max-width:1470px) {
-    .aakhri{
-        margin-right:55px;
-        margin-left:55px;
+    .aakhri {
+        margin-right: 55px;
+        margin-left: 55px;
         justify-content: space-between;
         max-width: 1500px;
     }
+
     figure:nth-child(7) {
         display: none;
     }
@@ -40,6 +41,7 @@
     .container {
         justify-content: center;
         max-width: 1800px;
+        gap: 13px;
     }
 
     .sectioncontainer {
@@ -141,56 +143,54 @@
     footer {
         display: none;
     } */
-     .wherewhenwho{
+    .wherewhenwho {
         display: none;
-     }
+    }
 
-     header .svg:nth-child(3){
+    header .svg:nth-child(3) {
         display: none;
-     }
+    }
 
-     main{
+    main {
         padding-top: 130px;
-     }
+    }
 
 }
 
 @media screen and (max-width:935px) {
-         main{
+    main {
         padding-top: 230px;
-     }
-     *{
+    }
+
+    * {
         position: static !important;
         /* left: 0 !important; */
-     }
-     .svg{
-        display: flex !important;
-     }
-     .maincontainerofheader {
-    left: 0%;
-    gap: 60px;
-    transform: translateX(0%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-nav {
-    padding: 0 0 0 0%;
-    left: 0%;
-    transform: translateX(0%);
-    position: fixed;
-    margin: auto;
-}
-.aakhrisection{
-    padding: 30px 33px;
-}
-}
+    }
 
-@media screen and (max-width:735px) {
-    .sectioncontainer {
-        grid-template-rows: auto auto auto;
-        grid-template-columns: auto auto;
+    .svg {
+        display: flex !important;
+    }
+
+    .maincontainerofheader {
+        left: 0%;
+        gap: 60px;
+        transform: translateX(0%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav {
+        padding: 0 0 0 0%;
+        left: 0%;
+        transform: translateX(0%);
+        position: fixed;
+        margin: auto;
+    }
+
+    .aakhrisection {
+        padding: 30px 33px;
     }
 }
 
@@ -203,20 +203,27 @@ nav {
     .arrow .circlecon {
         display: none;
     }
-    .arrow h1{
-        font-size: 20px;
+
+    .rigntarrow {
+        display: none;
+    }
+
+    .arrow h1 {
+        font-size: 26px;
     }
 }
 
 @media screen and (max-width:590px) {
-    .maincontainerofheader{
+    .maincontainerofheader {
         gap: 45px;
     }
-    header ul{
+
+    header ul {
         flex-direction: column;
         gap: 30px;
     }
-    main{
+
+    main {
         padding-top: 310px;
     }
 }
@@ -227,18 +234,345 @@ nav {
         width: 200px;
         height: 190px;
     }
+
+    .arrow h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .emergency {
+        width: 100%;
+        max-width: 419px;
+        text-align: left;
+    }
+    .container{
+        width: 100%;
+        max-width: 419px;
+    }
 }
 
 @media screen and (max-width:480px) {
+    .icons {
+        padding: 12px 14px;
+    }
+
+    .i1 {
+        font-size: 21px;
+    }
+
+    .guest {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+
+        div.emergency {
+            width: 100%;
+        text-align: center !important;
+        /* text-align-last: left; */
+        h1{
+            margin: auto;
+            text-align: center !important;
+        }
+    }
+
     figure img {
         border-radius: 24px;
         width: 180px;
+        height: 175px;
+    }
+
+    .arrow h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    main {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .container>.arrow {
+        max-width: 350px;
+        margin-bottom: 0;
+        margin-top: 8px;
+
+        h1 {
+            padding-bottom: 0;
+        }
+    }
+
+    .one {
+        padding-top: 0;
+    }
+
+    .one .container>.arrow {
+        max-width: 350px;
+        margin-bottom: 0;
+        margin-top: 0px;
+
+        h1 {
+            padding-bottom: 0;
+        }
+    }
+
+    figure {
+        max-width: 170px;
+        width: 100%;
+    }
+
+    figure img {
+        border-radius: 24px;
+        width: 170px;
         height: 170px;
+    }
+
+    .sectioncontainer {
+        gap: 12px;
+    }
+
+    section h1 {
+        font-size: 21px;
+    }
+
+    .arrow {
+        justify-content: center;
+        padding: 0 !important;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container {
+        justify-content: center;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+
+    .sectioncontainer {
+        width: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+    }
+
+    figure:nth-child(7) {
+        display: none;
     }
 }
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 390px) {
+    section .sectioncontainer {
+        gap: 9.5px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .icons {
+        padding: 12px 10px;
+    }
+
+    .i1 {
+        font-size: 19px;
+    }
+
+    .guest {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    figure img {
+        border-radius: 24px;
+        width: 156px;
+        height: 165px;
+    }
+
+    figure {
+        max-width: 156px;
+        width: 100%;
+    }
+
+    .sectioncontainer {
+        gap: 9px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .icons {
+        padding: 12px 10px;
+    }
+
+    .i1 {
+        font-size: 16px;
+    }
+
+    .guest {
+        font-size: 8px;
+        padding: 4px 5px;
+    }
+
+    figure img {
+        border-radius: 24px;
+        width: 100%;
+        height: 150px;
+    }
+
+    figure {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .sectioncontainer {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .icons {
+        padding: 12px 8px;
+    }
+
+    .i1 {
+        font-size: 18px;
+    }
+
+    .guest {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+
+    figure {
+        max-width: 145px;
+        width: 100%;
+    }
+
+    .sectioncontainer {
+        gap: 7px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    figure h3 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    figure p {
+        font-size: 12px;
+    }
+
+    .icons {
+        padding: 12px 8px;
+    }
+
+    .i1 {
+        font-size: 17px;
+    }
+
+    .guest {
+        font-size: 9px;
+        padding: 4px 6px;
+    }
+
+    figure {
+        max-width: 140px;
+        width: 100%;
+    }
+
+    figure img {
+        height: 145px;
+    }
+
+    .sectioncontainer {
+        gap: 6px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .icons {
+        padding: 12px 7px;
+    }
+
+    .i1 {
+        font-size: 17px;
+    }
+
+    .guest {
+        font-size: 9px;
+        padding: 4px 6px;
+    }
+
+    figure {
+        max-width: 135px;
+        width: 100%;
+    }
+
+    figure img {
+        height: 140px;
+    }
+
+    .sectioncontainer {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+
+    figure {
+        max-width: 132px;
+
+        img {
+            height: 137px;
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width:301px) {
+    .sectioncontainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+    }
+    .icons {
+        /* display: none; */
+        justify-content: space-between;
+        left: 0;
+        width: 100%;
+
+        padding: 12px 12px;
+    }
+
+    .i1 {
+        font-size: 22px;
+    }
+
+    .guest {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    main {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    figure{
+        max-width: 195px;
+        width: 100% !important;
+        /* width: 100%; */
+        padding: 0;
+    }
+
     .sectioncontainer {
         grid-template-rows: auto auto auto auto auto auto auto;
         grid-template-columns: auto;
@@ -246,8 +580,8 @@ nav {
 
     figure img {
         border-radius: 24px;
-        width: 190px;
-        height: 180px;
+        width: 100%;
+        height: 100%;
     }
 
     .sectioncontainer {

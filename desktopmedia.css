@@ -375,9 +375,8 @@
         display: none;
     }
     section .emergency{
-    max-width: 220px;
+    /* max-width: 220px; */
     width: 100%;
-
 }
 }
 @media screen and (max-width: 380px) {
@@ -386,10 +385,9 @@
         margin: 70px 0 40px 0;
         padding: 0 0 0 0;
     }
-    /* main{
-        padding: 20px !important;
-    } */
 }
+
+
 
 @media screen and (max-width: 346px) {
     footer ul li:nth-child(3) {
